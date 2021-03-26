@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "ghost-css",
+  "version": "0.1",
+  "action": {},
+  "description": "Reveal ghost css",
+  "icons": {
+    "48": "ghost-css-48.png"
+  },
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
